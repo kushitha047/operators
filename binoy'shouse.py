@@ -10,20 +10,13 @@ Input (stdin)
 Output (stdout)
 Binoy's house is located at (6.0,9.5)
 ***
-# Function to calculate the midpoint
 def find_midpoint(x1, y1, x2, y2):
     mid_x = (x1 + x2) / 2
     mid_y = (y1 + y2) / 2
     return mid_x, mid_y
-
-# Input: Coordinates of Ajay's and Chandru's houses
 x1 = int(input())
 y1 = int(input())
 x2 = int(input())
 y2 = int(input())
-
-# Calculate the midpoint
 mid_x, mid_y = find_midpoint(x1, y1, x2, y2)
-
-# Output the result
 print(f"Binoy's house is located at ({mid_x:.1f},{mid_y:.1f})")
