@@ -23,13 +23,8 @@ Sample Output 3
 
 ***
 def celsius_to_fahrenheit(celsius):
-    # Convert Celsius to Fahrenheit
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
-
-# Input: Temperature in Celsius
 celsius = int(input("Enter temperature in Celsius: "))
-
-# Output: Temperature in Fahrenheit
 fahrenheit = celsius_to_fahrenheit(celsius)
 print(f"{fahrenheit:.1f}")
